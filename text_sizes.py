@@ -4,6 +4,11 @@ import re
 import matplotlib.pyplot as plt
 
 
+"""
+this module is to calculate the text box size using matplotlib
+"""
+
+
 def short_title(string):
     _p = "[^\d\.\sa-zA-ZÀ-ÿ]"
     _r = re.findall(_p, string)
